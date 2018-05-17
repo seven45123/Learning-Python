@@ -1,0 +1,418 @@
+Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x=25
+>>> y=10
+>>> x-y
+15
+>>> 4**2
+16
+>>> print "Python Rocks"
+  File "<stdin>", line 1
+    print "Python Rocks"
+                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Python Rocks")?
+>>> print ("Python Rocks")
+Python Rocks
+>>> print( ("python rocks").uppar())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'uppar'
+>>> print ("python rocks").uppar()
+python rocks
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'NoneType' object has no attribute 'uppar'
+>>> print "python rocks".uppar()
+  File "<stdin>", line 1
+    print "python rocks".uppar()
+                       ^
+SyntaxError: invalid syntax
+>>> print "python rocks".upper()
+  File "<stdin>", line 1
+    print "python rocks".upper()
+                       ^
+SyntaxError: invalid syntax
+>>> print ("python rocks").upper()
+python rocks
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'NoneType' object has no attribute 'upper'
+>>> print ("python rocks".upper())
+PYTHON ROCKS
+>>> print ("python rocks".lower())
+python rocks
+>>> 4***2
+  File "<stdin>", line 1
+    4***2
+       ^
+SyntaxError: invalid syntax
+>>> name= inut("Enter The Name")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'inut' is not defined
+>>> name = inut("Enter The Name")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'inut' is not defined
+>>> name = input("Enter The Name")
+Enter The Name "vicky"
+>>> name = int("Enter The Name")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'Enter The Name'
+>>> name = int("1.2")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '1.2'
+>>> int = input("1.2")
+1.220
+>>> strings = input (" vicky")
+ vicky
+>>> float = input("10")
+10
+>>> number = input(" enter the no")
+ enter the no 20
+>>> 20
+20
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print ("c")
+c
+>>> a+b
+30
+>>> name = input(" enter the name")
+ enter the name 10
+>>> name
+' 10'
+>>> name = input(" enter the name")
+ enter the name vicky
+>>> name
+' vicky'
+>>>  a 
+  File "<stdin>", line 1
+    a 
+    ^
+IndentationError: unexpected indent
+>>>  a = input("Enter the Number")
+  File "<stdin>", line 1
+    a = input("Enter the Number")
+    ^
+IndentationError: unexpected indent
+>>> a = input("Enter the Number")
+Enter the Number 4
+>>> b  = input("Enter the Number")
+Enter the Number 4
+>>> a + b
+' 4 4'
+>>> c = a + b
+>>> c
+' 4 4'
+>>> b  = int(input("Enter the Number"))
+Enter the Number 5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>>  5
+  File "<stdin>", line 1
+    5
+    ^
+IndentationError: unexpected indent
+>>> b  = int(input("Enter the Number"))
+Enter the Number5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> b  = int(input("Enter the Number"))
+Enter the Number4
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> b  = (int(input("Enter the Number")))
+Enter the Number 5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> b  = (int(input("Enter the Number")))
+Enter the NumberTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyboardInterrupt
+>>> 
+>>> b = int(input("numer1")
+... )0
+  File "<stdin>", line 2
+    )0
+     ^
+SyntaxError: invalid syntax
+>>> b = int(input("numer1"))
+numer1 4
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> b = int(input(numer1))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'numer1' is not defined
+>>> b = int(input(numer1))
+KeyboardInterrupt
+>>> 
+sayali@sayali-Inspiron-15-3567:~$ python3
+Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> b = input(Enter the number)
+  File "<stdin>", line 1
+    b = input(Enter the number)
+                      ^
+SyntaxError: invalid syntax
+>>> b = input("Enter the number")
+Enter the number 5
+>>> c  = input("Enter the number")
+Enter the number 5
+>>> d = b + c
+>>> d
+' 5 5'
+>>> print(d)
+ 5 5
+>>> d=b + c
+>>> print(d)
+ 5 5
+>>> f=b + c
+>>> print(f)
+ 5 5
+>>> c  = int(input("Enter the number"))
+Enter the number5
+>>> d  = int(input("Enter the number"))
+Enter the number6
+>>> f = c +d
+>>> f
+11
+>>> colors = ['brown','orange','Red']
+>>> colors
+['brown', 'orange', 'Red']
+>>> logs = ('skillbrew.com',500)
+>>> logs
+('skillbrew.com', 500)
+>>> x = 10.5
+>>> print ("x")
+x
+>>> print x
+  File "<stdin>", line 1
+    print x
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(x)?
+>>> x = 10.5
+>>> x
+10.5
+>>> x = 10.5
+>>> y = 4
+>>> x = x + y
+>>> x
+14.5
+>>> 2 ** 4
+16
+>>> 1+2+3+4+5+6+7+8+9+10
+55
+>>> sum = 1+2+3+4+5+6+7+8+9+10
+>>> sum
+55
+>>> sum = [1+2+3+4+5+6+7+8+9+10]
+>>> sum
+[55]
+>>> x =10
+>>> print (X)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'X' is not defined
+>>> print ('X')
+X
+>>> x = 10
+>>> print x
+  File "<stdin>", line 1
+    print x
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(x)?
+>>> print (x)
+10
+>>> print('x')
+x
+>>> x = 10
+>>> print (' x = ' + str(x))
+ x = 10
+>>> x = 20
+>>> print (' x = ' + str(x))
+ x = 20
+>>> x = 30
+>>> print (' x = ' + str(x))
+ x = 30
+>>> print ('A\nB\nc')
+A
+B
+c
+>>> print ('D\tE\tF')
+D	E	F
+>>> print ('WX\bYZ')
+WYZ
+>>> print ('1\a2\a3\a4\a5\a6')
+123456
+>>> x = 4+\6
+  File "<stdin>", line 1
+    x = 4+\6
+           ^
+SyntaxError: unexpected character after line continuation character
+>>> x = 4 + \ 6
+  File "<stdin>", line 1
+    x = 4 + \ 6
+              ^
+SyntaxError: unexpected character after line continuation character
+>>> x = 4 + \ 
+  File "<stdin>", line 1
+    x = 4 + \ 
+             ^
+SyntaxError: unexpected character after line continuation character
+>>> x = 4 + \ 
+  File "<stdin>", line 1
+    x = 4 + \ 
+             ^
+SyntaxError: unexpected character after line continuation character
+>>> 6
+6
+>>> 3 + 4
+7
+>>> 1 + 2 + 4 + 10 + 3
+20
+>>> print (1 + 2 + 4 + 10 + 3)
+20
+>>> 19
+19
+>>> "19"
+'19'
+>>> '19'
+'19'
+>>> " Fred "
+' Fred '
+>>> ' Fread '
+' Fread '
+>>> ' ABC '
+' ABC '
+>>> ' ABC "
+  File "<stdin>", line 1
+    ' ABC "
+          ^
+SyntaxError: EOL while scanning string literal
+>>> "ABC'
+  File "<stdin>", line 1
+    "ABC'
+        ^
+SyntaxError: EOL while scanning string literal
+>>>  scanning string literal
+  File "<stdin>", line 1
+    scanning string literal
+    ^
+IndentationError: unexpected indent
+>>> type (4)
+<class 'int'>
+>>> 5 + 10
+15
+>>> '5' + '10'
+'510'
+>>> ;abc' + 'xyz'
+  File "<stdin>", line 1
+    ;abc' + 'xyz'
+    ^
+SyntaxError: invalid syntax
+>>> 'abc' + 'xyz'
+'abcxyz'
+>>> '5' + 10
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+>>> 5 + int('10')
+15
+>>> '5' +  str(10)
+'510'
+>>> type(4)
+<class 'int'>
+>>> type('4' + '7')
+<class 'str'>
+>>> '5 + '10'
+  File "<stdin>", line 1
+    '5 + '10'
+           ^
+SyntaxError: invalid syntax
+>>> '5' + '10'
+'510'
+>>> print ('Please enter an integer value:')
+Please enter an integer value:
+>>> x = input()
+print ('please enter another integer value:')
+>>> y = input()
+20
+>>> num1 = int(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: "print ('please enter another integer value:')"
+>>> num1 = int (x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: "print ('please enter another integer value:')"
+>>> num2 = int (y)
+>>> print (num1, '+', num2, '=',num1 + num2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'num1' is not defined
+>>> print ('please enter another integer value:')
+please enter another integer value:
+>>> 10
+10
+>>> print ('please enter another integer value:')
+please enter another integer value:
+>>> 20
+20
+>>> y = input()
+15
+>>> num1 = int (x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: "print ('please enter another integer value:')"
+>>> y = input()
+num1 = int(x)
+>>> num1 = int(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: "print ('please enter another integer value:')"
+>>> num2 = int (y)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'num1 = int(x)'
+>>> print ('please enter another integer value')
+please enter another integer value
+>>> 12
+12
+>>> print ('please enter another integer value')
+please enter another integer value
+>>> y = input()
+10
+>>> num1 = int(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: "print ('please enter another integer value:')"
+>>> x = input(' please enter an integer value:')
+ please enter an integer value:10
+>>> y = input(' please enter another  integer value:')
+ please enter another  integer value:20
+>>> num1 = int(x)
+>>> num2 = int(y)
+>>> print (num1, '+', num2,  '=', num1 + num2)
+10 + 20 = 30
+>>> num1 = int(input('please enter an integer value:'))
+please enter an integer value:5
+>>> num2 = int(input('please enter anther  integer value:'))
+please enter anther  integer value:6
+>>> print (num1, '+', num2,  '=', num1 + num2)
+5 + 6 = 11
+>>> 
+KeyboardInterrupt
+>>> 20
+
